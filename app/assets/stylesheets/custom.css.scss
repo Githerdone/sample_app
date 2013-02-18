@@ -7,8 +7,7 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
-  width:100%;
-  float:center; }
+ }
 
   
   /* universal */
@@ -79,6 +78,12 @@
   		color: #5858fa;
   		text-decoration: none;
     }
+  }
+
+  .mylink {
+    font-size: 1.2em;
+    color: #570;
+    font-weight: normal;
   }
 
   /* footer */
