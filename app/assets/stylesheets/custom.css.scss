@@ -99,18 +99,18 @@
         color: #222;
       }
     }
-  }  
+    
+    small { 
+      float: left; 
+    }
   
-  small { 
-    float: left; 
-  }
-  
-  ul {
-    float: right;
-    list-style: none;
-    li {
-      float: left;
-      margin-left: 10px;
+    ul {
+      float: right;
+      list-style: none;
+      li {
+        float: left;
+        margin-left: 10px;
+      }
     }
   }
 
@@ -219,7 +219,7 @@
 
   .users {
     list-style: none;
-    margin: 0;
+    margin: 0px 0 0 0;
     li {
       overflow: auto;
       padding: 10px 0;
